@@ -21,3 +21,7 @@ class Solution(object):
 sol = Solution()
 nums=[-2, 1, -3, 4, -1, 2, 1,-5, 4]
 print("max sum is --> " , sol.maxSubArray(nums))
+nums=[1]
+print("max sum is --> " , sol.maxSubArray(nums))
+nums=[5,4,-1,7,8]
+print("max sum is --> " , sol.maxSubArray(nums))

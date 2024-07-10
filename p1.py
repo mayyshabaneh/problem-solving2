@@ -12,5 +12,7 @@ class solution:
 
 
 sol = solution()
-num = int(input("enter your number : "))
+num = 2
+print(sol.tobin(num))
+num = 5
 print(sol.tobin(num))

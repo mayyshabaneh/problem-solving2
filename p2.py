@@ -10,3 +10,5 @@ class solution:
 sol = solution()
 arr = [0,1,0,3,12]
 print(sol.arrange(arr))
+arr = [0]
+print(sol.arrange(arr))
